@@ -1,0 +1,16 @@
+{
+  "name": "definitivo",
+  "version": "1.0.0",
+  "description": "prueba",
+  "main": "hola.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "startDev":"CORE_CHAINCODE_ID_NAME=transferencia:v0 fabric-chaincode-node -- --peer.address grpc://localhost:7042"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "fabric-shim": "^2.1.0",
+    "fabric-shim-api": "^2.1.0"
+  }
+}
